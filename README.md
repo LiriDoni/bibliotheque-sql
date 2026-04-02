@@ -82,3 +82,31 @@ Log_action    → journal des actions des libraires
 - 🏷️ **Génération automatique de codes barres** — PNG prêts à imprimer à chaque création
 - ⭐ **Système d'avis** — notes de 1 à 5 étoiles avec commentaires
 - 📋 **Liste de souhaits** — les clients peuvent réserver des livres indisponibles
+
+---
+
+## Application graphique (bonus)
+
+En plus de la base de données, une interface graphique complète a été développée en **Python + Tkinter** permettant d'utiliser le système sans écrire de SQL.
+
+### Prérequis
+
+\```
+pip install python-barcode[images] Pillow
+\```
+
+### Lancer l'application
+
+\```
+python app.py
+\```
+
+### Fonctionnement
+
+L'application se lance sur un écran de scan. Chaque utilisateur possède un **code barre unique de 15 caractères** à scanner pour se connecter — aucun mot de passe requis au quotidien.
+
+| Fichier | Rôle |
+|---------|------|
+| `app.py` | Application principale |
+| `bibliotheque.db` | Base de données SQLite |
+| `barcodes/` | Codes barres générés automatiquement (PNG) |
