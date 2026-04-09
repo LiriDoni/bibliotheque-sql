@@ -73,15 +73,15 @@ Log_action    → journal des actions des libraires
 
 ## Fonctionnalités principales
 
-- 🔐 **Connexion par scan de code barre** — chaque utilisateur a un code unique de 15 caractères
-- 📖 **Emprunt instantané** — scanner un livre l'emprunte directement
-- ↩ **Retour en deux étapes** — le client initie, le libraire confirme par scan
-- 🔔 **Notification en temps réel** — le libraire voit les retours en attente avec badge et compteur
-- ⏸ **Suspension de clients** — l'admin peut bloquer un compte pour N jours
-- 📊 **Logs d'activité** — toutes les actions des libraires sont tracées
-- 🏷️ **Génération automatique de codes barres** — PNG prêts à imprimer à chaque création
-- ⭐ **Système d'avis** — notes de 1 à 5 étoiles avec commentaires
-- 📋 **Liste de souhaits** — les clients peuvent réserver des livres indisponibles
+-  **Connexion par scan de code barre** — chaque utilisateur a un code unique de 15 caractères
+-  **Emprunt instantané** — scanner un livre l'emprunte directement
+-  **Retour en deux étapes** — le client initie, le libraire confirme par scan
+-  **Notification en temps réel** — le libraire voit les retours en attente avec badge et compteur
+-  **Suspension de clients** — l'admin peut bloquer un compte pour N jours
+-  **Logs d'activité** — toutes les actions des libraires sont tracées
+-  **Génération automatique de codes barres** — PNG prêts à imprimer à chaque création
+-  **Système d'avis** — notes de 1 à 5 étoiles avec commentaires
+-  **Liste de souhaits** — les clients peuvent réserver des livres indisponibles
 
 ---
 
