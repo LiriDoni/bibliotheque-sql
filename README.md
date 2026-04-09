@@ -1,4 +1,4 @@
-# 📚 Système de Gestion de Bibliothèque
+#  Système de Gestion de Bibliothèque
 
 ## Présentation du projet
 
